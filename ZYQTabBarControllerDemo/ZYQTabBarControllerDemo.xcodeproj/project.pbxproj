@@ -1,0 +1,495 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		18C80F1B1920B184005BFCC3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18C80F1A1920B184005BFCC3 /* Foundation.framework */; };
+		18C80F1D1920B184005BFCC3 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18C80F1C1920B184005BFCC3 /* CoreGraphics.framework */; };
+		18C80F1F1920B184005BFCC3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18C80F1E1920B184005BFCC3 /* UIKit.framework */; };
+		18C80F251920B185005BFCC3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 18C80F231920B185005BFCC3 /* InfoPlist.strings */; };
+		18C80F271920B185005BFCC3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 18C80F261920B185005BFCC3 /* main.m */; };
+		18C80F2B1920B185005BFCC3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 18C80F2A1920B185005BFCC3 /* AppDelegate.m */; };
+		18C80F2D1920B185005BFCC3 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18C80F2C1920B185005BFCC3 /* Images.xcassets */; };
+		18C80F341920B185005BFCC3 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18C80F331920B185005BFCC3 /* XCTest.framework */; };
+		18C80F351920B185005BFCC3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18C80F1A1920B184005BFCC3 /* Foundation.framework */; };
+		18C80F361920B185005BFCC3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18C80F1E1920B184005BFCC3 /* UIKit.framework */; };
+		18C80F3E1920B185005BFCC3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 18C80F3C1920B185005BFCC3 /* InfoPlist.strings */; };
+		18C80F401920B185005BFCC3 /* ZYQTabBarControllerDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18C80F3F1920B185005BFCC3 /* ZYQTabBarControllerDemoTests.m */; };
+		18C80F551920BB00005BFCC3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18C80F541920BB00005BFCC3 /* ViewController.m */; };
+		18C80F571920C3ED005BFCC3 /* tabbarbg.png in Resources */ = {isa = PBXBuildFile; fileRef = 18C80F561920C3ED005BFCC3 /* tabbarbg.png */; };
+		D8772CD8192121BA003FA168 /* ZYQTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = D8772CD3192121BA003FA168 /* ZYQTabBar.m */; };
+		D8772CD9192121BA003FA168 /* ZYQTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = D8772CD5192121BA003FA168 /* ZYQTabBarController.m */; };
+		D8772CDA192121BA003FA168 /* ZYQTabBarItem.m in Sources */ = {isa = PBXBuildFile; fileRef = D8772CD7192121BA003FA168 /* ZYQTabBarItem.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		18C80F371920B185005BFCC3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 18C80F0F1920B184005BFCC3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 18C80F161920B184005BFCC3;
+			remoteInfo = ZYQTabBarControllerDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		18C80F171920B184005BFCC3 /* ZYQTabBarControllerDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZYQTabBarControllerDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		18C80F1A1920B184005BFCC3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		18C80F1C1920B184005BFCC3 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		18C80F1E1920B184005BFCC3 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		18C80F221920B185005BFCC3 /* ZYQTabBarControllerDemo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ZYQTabBarControllerDemo-Info.plist"; sourceTree = "<group>"; };
+		18C80F241920B185005BFCC3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		18C80F261920B185005BFCC3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		18C80F281920B185005BFCC3 /* ZYQTabBarControllerDemo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ZYQTabBarControllerDemo-Prefix.pch"; sourceTree = "<group>"; };
+		18C80F291920B185005BFCC3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		18C80F2A1920B185005BFCC3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		18C80F2C1920B185005BFCC3 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		18C80F321920B185005BFCC3 /* ZYQTabBarControllerDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZYQTabBarControllerDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		18C80F331920B185005BFCC3 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		18C80F3B1920B185005BFCC3 /* ZYQTabBarControllerDemoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ZYQTabBarControllerDemoTests-Info.plist"; sourceTree = "<group>"; };
+		18C80F3D1920B185005BFCC3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		18C80F3F1920B185005BFCC3 /* ZYQTabBarControllerDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZYQTabBarControllerDemoTests.m; sourceTree = "<group>"; };
+		18C80F531920BB00005BFCC3 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		18C80F541920BB00005BFCC3 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		18C80F561920C3ED005BFCC3 /* tabbarbg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tabbarbg.png; sourceTree = "<group>"; };
+		D8772CD2192121BA003FA168 /* ZYQTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYQTabBar.h; sourceTree = "<group>"; };
+		D8772CD3192121BA003FA168 /* ZYQTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYQTabBar.m; sourceTree = "<group>"; };
+		D8772CD4192121BA003FA168 /* ZYQTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYQTabBarController.h; sourceTree = "<group>"; };
+		D8772CD5192121BA003FA168 /* ZYQTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYQTabBarController.m; sourceTree = "<group>"; };
+		D8772CD6192121BA003FA168 /* ZYQTabBarItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYQTabBarItem.h; sourceTree = "<group>"; };
+		D8772CD7192121BA003FA168 /* ZYQTabBarItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYQTabBarItem.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		18C80F141920B184005BFCC3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18C80F1D1920B184005BFCC3 /* CoreGraphics.framework in Frameworks */,
+				18C80F1F1920B184005BFCC3 /* UIKit.framework in Frameworks */,
+				18C80F1B1920B184005BFCC3 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18C80F2F1920B185005BFCC3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18C80F341920B185005BFCC3 /* XCTest.framework in Frameworks */,
+				18C80F361920B185005BFCC3 /* UIKit.framework in Frameworks */,
+				18C80F351920B185005BFCC3 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		18C80F0E1920B184005BFCC3 = {
+			isa = PBXGroup;
+			children = (
+				18C80F201920B184005BFCC3 /* ZYQTabBarControllerDemo */,
+				18C80F391920B185005BFCC3 /* ZYQTabBarControllerDemoTests */,
+				18C80F191920B184005BFCC3 /* Frameworks */,
+				18C80F181920B184005BFCC3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		18C80F181920B184005BFCC3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				18C80F171920B184005BFCC3 /* ZYQTabBarControllerDemo.app */,
+				18C80F321920B185005BFCC3 /* ZYQTabBarControllerDemoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		18C80F191920B184005BFCC3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				18C80F1A1920B184005BFCC3 /* Foundation.framework */,
+				18C80F1C1920B184005BFCC3 /* CoreGraphics.framework */,
+				18C80F1E1920B184005BFCC3 /* UIKit.framework */,
+				18C80F331920B185005BFCC3 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		18C80F201920B184005BFCC3 /* ZYQTabBarControllerDemo */ = {
+			isa = PBXGroup;
+			children = (
+				D8772CD1192121BA003FA168 /* ZYQTabBarController */,
+				18C80F291920B185005BFCC3 /* AppDelegate.h */,
+				18C80F2A1920B185005BFCC3 /* AppDelegate.m */,
+				18C80F561920C3ED005BFCC3 /* tabbarbg.png */,
+				18C80F531920BB00005BFCC3 /* ViewController.h */,
+				18C80F541920BB00005BFCC3 /* ViewController.m */,
+				18C80F2C1920B185005BFCC3 /* Images.xcassets */,
+				18C80F211920B185005BFCC3 /* Supporting Files */,
+			);
+			path = ZYQTabBarControllerDemo;
+			sourceTree = "<group>";
+		};
+		18C80F211920B185005BFCC3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				18C80F221920B185005BFCC3 /* ZYQTabBarControllerDemo-Info.plist */,
+				18C80F231920B185005BFCC3 /* InfoPlist.strings */,
+				18C80F261920B185005BFCC3 /* main.m */,
+				18C80F281920B185005BFCC3 /* ZYQTabBarControllerDemo-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		18C80F391920B185005BFCC3 /* ZYQTabBarControllerDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				18C80F3F1920B185005BFCC3 /* ZYQTabBarControllerDemoTests.m */,
+				18C80F3A1920B185005BFCC3 /* Supporting Files */,
+			);
+			path = ZYQTabBarControllerDemoTests;
+			sourceTree = "<group>";
+		};
+		18C80F3A1920B185005BFCC3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				18C80F3B1920B185005BFCC3 /* ZYQTabBarControllerDemoTests-Info.plist */,
+				18C80F3C1920B185005BFCC3 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D8772CD1192121BA003FA168 /* ZYQTabBarController */ = {
+			isa = PBXGroup;
+			children = (
+				D8772CD2192121BA003FA168 /* ZYQTabBar.h */,
+				D8772CD3192121BA003FA168 /* ZYQTabBar.m */,
+				D8772CD4192121BA003FA168 /* ZYQTabBarController.h */,
+				D8772CD5192121BA003FA168 /* ZYQTabBarController.m */,
+				D8772CD6192121BA003FA168 /* ZYQTabBarItem.h */,
+				D8772CD7192121BA003FA168 /* ZYQTabBarItem.m */,
+			);
+			name = ZYQTabBarController;
+			path = ../../ZYQTabBarController;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		18C80F161920B184005BFCC3 /* ZYQTabBarControllerDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18C80F431920B185005BFCC3 /* Build configuration list for PBXNativeTarget "ZYQTabBarControllerDemo" */;
+			buildPhases = (
+				18C80F131920B184005BFCC3 /* Sources */,
+				18C80F141920B184005BFCC3 /* Frameworks */,
+				18C80F151920B184005BFCC3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZYQTabBarControllerDemo;
+			productName = ZYQTabBarControllerDemo;
+			productReference = 18C80F171920B184005BFCC3 /* ZYQTabBarControllerDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		18C80F311920B185005BFCC3 /* ZYQTabBarControllerDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18C80F461920B185005BFCC3 /* Build configuration list for PBXNativeTarget "ZYQTabBarControllerDemoTests" */;
+			buildPhases = (
+				18C80F2E1920B185005BFCC3 /* Sources */,
+				18C80F2F1920B185005BFCC3 /* Frameworks */,
+				18C80F301920B185005BFCC3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				18C80F381920B185005BFCC3 /* PBXTargetDependency */,
+			);
+			name = ZYQTabBarControllerDemoTests;
+			productName = ZYQTabBarControllerDemoTests;
+			productReference = 18C80F321920B185005BFCC3 /* ZYQTabBarControllerDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		18C80F0F1920B184005BFCC3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = ZYQ;
+				TargetAttributes = {
+					18C80F311920B185005BFCC3 = {
+						TestTargetID = 18C80F161920B184005BFCC3;
+					};
+				};
+			};
+			buildConfigurationList = 18C80F121920B184005BFCC3 /* Build configuration list for PBXProject "ZYQTabBarControllerDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 18C80F0E1920B184005BFCC3;
+			productRefGroup = 18C80F181920B184005BFCC3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				18C80F161920B184005BFCC3 /* ZYQTabBarControllerDemo */,
+				18C80F311920B185005BFCC3 /* ZYQTabBarControllerDemoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		18C80F151920B184005BFCC3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18C80F251920B185005BFCC3 /* InfoPlist.strings in Resources */,
+				18C80F2D1920B185005BFCC3 /* Images.xcassets in Resources */,
+				18C80F571920C3ED005BFCC3 /* tabbarbg.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18C80F301920B185005BFCC3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18C80F3E1920B185005BFCC3 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		18C80F131920B184005BFCC3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18C80F551920BB00005BFCC3 /* ViewController.m in Sources */,
+				D8772CD9192121BA003FA168 /* ZYQTabBarController.m in Sources */,
+				18C80F2B1920B185005BFCC3 /* AppDelegate.m in Sources */,
+				D8772CDA192121BA003FA168 /* ZYQTabBarItem.m in Sources */,
+				D8772CD8192121BA003FA168 /* ZYQTabBar.m in Sources */,
+				18C80F271920B185005BFCC3 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18C80F2E1920B185005BFCC3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18C80F401920B185005BFCC3 /* ZYQTabBarControllerDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		18C80F381920B185005BFCC3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 18C80F161920B184005BFCC3 /* ZYQTabBarControllerDemo */;
+			targetProxy = 18C80F371920B185005BFCC3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		18C80F231920B185005BFCC3 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18C80F241920B185005BFCC3 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		18C80F3C1920B185005BFCC3 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18C80F3D1920B185005BFCC3 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		18C80F411920B185005BFCC3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		18C80F421920B185005BFCC3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		18C80F441920B185005BFCC3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ZYQTabBarControllerDemo/ZYQTabBarControllerDemo-Prefix.pch";
+				INFOPLIST_FILE = "ZYQTabBarControllerDemo/ZYQTabBarControllerDemo-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALID_ARCHS = "armv7 armv7s";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		18C80F451920B185005BFCC3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ZYQTabBarControllerDemo/ZYQTabBarControllerDemo-Prefix.pch";
+				INFOPLIST_FILE = "ZYQTabBarControllerDemo/ZYQTabBarControllerDemo-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALID_ARCHS = "armv7 armv7s";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		18C80F471920B185005BFCC3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ZYQTabBarControllerDemo.app/ZYQTabBarControllerDemo";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ZYQTabBarControllerDemo/ZYQTabBarControllerDemo-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "ZYQTabBarControllerDemoTests/ZYQTabBarControllerDemoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		18C80F481920B185005BFCC3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ZYQTabBarControllerDemo.app/ZYQTabBarControllerDemo";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ZYQTabBarControllerDemo/ZYQTabBarControllerDemo-Prefix.pch";
+				INFOPLIST_FILE = "ZYQTabBarControllerDemoTests/ZYQTabBarControllerDemoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		18C80F121920B184005BFCC3 /* Build configuration list for PBXProject "ZYQTabBarControllerDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18C80F411920B185005BFCC3 /* Debug */,
+				18C80F421920B185005BFCC3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18C80F431920B185005BFCC3 /* Build configuration list for PBXNativeTarget "ZYQTabBarControllerDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18C80F441920B185005BFCC3 /* Debug */,
+				18C80F451920B185005BFCC3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18C80F461920B185005BFCC3 /* Build configuration list for PBXNativeTarget "ZYQTabBarControllerDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18C80F471920B185005BFCC3 /* Debug */,
+				18C80F481920B185005BFCC3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 18C80F0F1920B184005BFCC3 /* Project object */;
+}
