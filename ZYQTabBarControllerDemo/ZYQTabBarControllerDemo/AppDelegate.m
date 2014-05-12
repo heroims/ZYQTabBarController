@@ -41,7 +41,6 @@
     tabBarController.tabBar.drawItemHighlight = NO;
     tabBarController.tabBar.layoutStrategy = ZYQTabBarLayoutStrategyCentered;
     tabBarController.tabBar.drawGloss = YES;
-    tabBarController.tabBarFrant=YES;
     tabBarController.viewControllers = viewController;
     
     self.window.rootViewController = tabBarController;
