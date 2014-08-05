@@ -33,7 +33,6 @@
     NSArray *viewController = [NSArray arrayWithObjects:vc1,vc2,vc3,vc4,nil];
     
     ZYQTabBarController *tabBarController = [[ZYQTabBarController alloc] init];
-    tabBarController.tabBar.backgroundImage=[UIImage imageNamed:@"tabbarbg"];
     tabBarController.tabBar.backgroundColor=[UIColor clearColor];
     tabBarController.animation = ZYQTabBarControllerAnimationMove;
     tabBarController.tabBar.itemPadding = 10.f;

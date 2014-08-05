@@ -134,7 +134,8 @@
                 
                 CGGradientRelease(colorGradient);
             }
-        } else {
+        }
+        else {
             CGContextDrawImage(context, imageRect, self.image.CGImage);
         }
         
